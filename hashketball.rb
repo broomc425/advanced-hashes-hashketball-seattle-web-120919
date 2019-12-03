@@ -184,6 +184,13 @@ end
 
 
 def player_stats
+  new_array = []
+  game_hash.each do |location, team|
+    team.each do |attribute, data|
+      if attribute = :players
+        data.each do |player|
+          if player[:player_name] == players_name
+            new_array << player[]
 
 
 def big_shoe_rebounds
