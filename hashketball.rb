@@ -192,9 +192,8 @@ def player_stats
           if player[:player_name] == players_name
             new_array << player[]
 
-
 # def big_shoe_rebounds
- 
+
 
 # bonus
 
